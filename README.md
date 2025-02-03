@@ -70,3 +70,35 @@
   - 국제적 불균형 확대
   
 - **사이버펑크**: 개인의 프라이버시를 중요시 생각한 사람들이 만든 단체로, 탈중앙화된 문화를 옹호하는 사회 운동을 시작.
+
+- # 맥 환경 설정 작업
+
+ **Homebrew 설치**
+
+Homebrew를 설치하려면 터미널에서 아래 명령어를 실행합니다:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+**Homebrew 설치**
+
+# nvm 다운로드 및 설치 및 Node.js 설치
+
+## 1. nvm 다운로드 및 설치
+
+터미널에서 아래 명령어를 실행하여 `nvm`을 설치합니다:
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+
+nvm 설치 후 zsh: command not found: nvm 나왔을 때
+환경변수 설정이 안되어 있어서 설정해줘야한다
+
+터미널에서 source ~/.nvm/nvm.sh로 환경변수 설정 이후 진행
+
+설치 후 nvm ls로 버전 확인
+
+버전을 맞춰주는 작업 nvm install 16.20.2로 버전을 다운받음
+
+nvm use 16.20.2로 원하는 버전으로 설정해준다
